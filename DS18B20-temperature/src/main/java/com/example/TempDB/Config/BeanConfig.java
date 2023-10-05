@@ -20,7 +20,7 @@ public class BeanConfig {
      */
     @Bean
     public DataBaseConnection dataBaseConnection() {
-        String url = "jdbc:mysql://localhost:3306/dashlacktempen_database";
+        String url = "jdbc:mysql://localhost:3306/TempsensorDB_database";
         String username = "root";
         String password = "INSERT PASSWORD";// Replace  "INSERT PASSWORD" with the database password
         return new DataBaseConnection(url, username, password);
